@@ -1,0 +1,19 @@
+name = "Aoidh
+description = "A simple, mainly-CSS theme inspired by Acme"
+
+license = "GPL-3.0-or-later"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.txt"
+
+homepage = "https://git.samanthony.xyz/aoidh"
+demosite = "https://www.samanthony.xyz"
+
+tags = ["personal", "light"]
+features = [
+	"nav",
+	"responsive buttons",
+	"readable black serif type on white background"
+]
+
+[author]
+	name = "Sam Anthony"
+	homepage = "https://www.samanthony.xyz"
