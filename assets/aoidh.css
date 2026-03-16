@@ -28,8 +28,7 @@ body {
 }
 
 body {
-  font-family: 'IBM Plex Serif', Charter, 'Bitstream Charter', 'Sitka Text', serif;
-  font-weight: 400;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   line-height: 1.3em;
   text-rendering: optimizeLegibility;
   color: #000;
@@ -71,12 +70,7 @@ nav a {
 }
 
 li.nav-active a {
-  font-weight: 600;
   box-shadow: .2rem .2rem var(--dark-yellow);
-}
-
-li.nav-ancestor a {
-  font-weight: 600;
 }
 
 nav a:active {
@@ -93,7 +87,6 @@ p {
 }
 
 a {
-  font-weight: 450;
   text-decoration: none;
   border: 1px solid transparent;
 }
@@ -117,17 +110,14 @@ a:active {
 
 h1 {
   font-size: 1.15rem;
-  font-weight: 700
 }
 
 h2 {
   font-size: 1.10rem;
-  font-weight: 600;
 }
 
 h3 {
   font-size: 1.05rem;
-  font-weight: 500;
 }
 
 h1, h2, h3 {
@@ -155,10 +145,6 @@ tbody tr {
 th, td {
   padding: .125em .4em;
   vertical-align: middle;
-}
-
-th, th * {
-  font-weight: 500;
 }
 
 footer {
