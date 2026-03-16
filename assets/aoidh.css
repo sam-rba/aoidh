@@ -70,7 +70,12 @@ nav a {
 }
 
 li.nav-active a {
+  font-weight: bold;
   box-shadow: .2rem .2rem var(--dark-yellow);
+}
+
+li.nav-ancestor a {
+  font-weight: bold;
 }
 
 nav a:active {
