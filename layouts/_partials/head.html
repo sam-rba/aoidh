@@ -1,15 +1,4 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-
-{{ range slice "aoidh.css" "fonts/et-book/et-book.css" }}
-	{{- with resources.Get . }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
-{{ end }}
-
-{{- range $style := slice "roman-line-figures" "display-italic-old-style-figures" "bold-line-figures" }}
-	{{- range $fmt := slice "eot" "woff" "ttf" "svg" }}
-		{{- $font := printf "fonts/et-book/et-book/et-book-%s/et-book-%s.%s" $style $style $fmt }}
-		{{- with resources.Get $font }}{{ .Publish }}
-		{{- else }}{{ errorf "font not found: %s" $font }}{{ end }}
-	{{- end -}}
-{{- end -}}
+{{ with resources.Get "aoidh.css" }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}

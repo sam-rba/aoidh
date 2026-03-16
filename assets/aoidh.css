@@ -28,7 +28,7 @@ body {
 }
 
 body {
-  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   line-height: 1.3em;
   text-rendering: optimizeLegibility;
   color: #000;
@@ -225,6 +225,6 @@ iframe {
 }
 
 code, .mono {
-  font-family: 'IBM Plex Mono', 'Source Code Pro', monospace;
+  font-family: "IBM Plex Mono", "Source Code Pro", monospace;
   font-size: .9em;
 }
