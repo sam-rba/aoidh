@@ -72,10 +72,9 @@ li.nav-active a {
 	box-shadow: .2rem .2rem var(--dark-yellow);
 }
 li.nav-ancestor a { font-weight: bold; }
-nav a:active {
-	box-shadow: 0 0;
-	text-decoration: none;
-}
+nav a, nav a:hover, nav a:active { text-decoration: none; }
+nav a:hover { background: var(--light-blue); }
+nav a:active { box-shadow: 0 0; }
 
 .article-header { margin-bottom: 2rem; }
 
